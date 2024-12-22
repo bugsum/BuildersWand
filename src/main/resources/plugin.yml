@@ -1,0 +1,17 @@
+name: BuildersWand
+version: '1.0-SNAPSHOT'
+main: me.bugsum.buildersWand.BuildersWand
+api-version: '1.21'
+commands:
+  renderselection:
+    description: Render the builders wand selection
+    usage: /renderselection
+    permission: builderswand.renderselection
+  selectionclear:
+    description: Clears the builders wand selection
+    usage: /selectionclear
+    permission: builderswand.selectionclear
+  getwand:
+    description: Gives the builders wand.
+    usage: /getwand
+    permission: builderswand.get
